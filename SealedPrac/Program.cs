@@ -18,7 +18,20 @@ namespace SealedPrac
         }
         class GrandChild : Child
         {
-            public override void Method() { }
+            //public override void Method() { }
+        }
+
+        abstract class Parent2
+        {
+            public abstract void Method();
+        }
+
+        class Child2: Parent2
+        {
+            public override void Method()
+            {
+
+            }
         }
         static void Main(string[] args)
         {
